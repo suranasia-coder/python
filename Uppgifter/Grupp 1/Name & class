@@ -1,0 +1,16 @@
+name= ()
+clist= ()
+name_class_list=[]
+print("this will write down a table of name and class")
+
+while True:
+    name= input( "Enter you name:")
+    if name == "stop":
+        break 
+    clist= input("Enter you class:")
+    name_class_list.append(name +" "+ clist)
+    
+print( "name     class ")
+print("---------------")
+for class_name in name_class_list:
+    print(class_name)
